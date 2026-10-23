@@ -1,9 +1,7 @@
 # Weave readme
 using Pkg
-cd("c:/git/SortingLab/")
-Pkg.activate("c:/git/SortingLab/readme-env")
+Pkg.activate("readme-env")
 Pkg.update()
-upcheck()
 
 using Weave
 

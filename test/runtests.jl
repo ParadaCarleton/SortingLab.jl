@@ -2,7 +2,6 @@ using SortingLab
 using Test
 using CategoricalArrays
 using DataFrames, Random
-using SortingAlgorithms
 
 
 N = 204900
@@ -11,6 +10,7 @@ K = 100
 include("fsort.jl")
 include("fsort-missing.jl")
 include("fsortperm-missing.jl")
+include("abstractvector.jl")
 
 # test fsortperm
 # a = rand(1:Int(N/K), N);
